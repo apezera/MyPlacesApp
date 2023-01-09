@@ -10,9 +10,9 @@
 		194FF998296C21B300FB6D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194FF997296C21B300FB6D55 /* AppDelegate.swift */; };
 		194FF99A296C21B300FB6D55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194FF999296C21B300FB6D55 /* SceneDelegate.swift */; };
 		194FF99F296C21B300FB6D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194FF99D296C21B300FB6D55 /* Main.storyboard */; };
-		194FF9A1296C21B500FB6D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194FF9A0296C21B500FB6D55 /* Assets.xcassets */; };
 		194FF9A4296C21B500FB6D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194FF9A2296C21B500FB6D55 /* LaunchScreen.storyboard */; };
 		194FF9C8296C23A600FB6D55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194FF9C7296C23A600FB6D55 /* MainViewController.swift */; };
+		194FF9D4296C7E8C00FB6D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194FF9D3296C7E8C00FB6D55 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		194FF997296C21B300FB6D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		194FF999296C21B300FB6D55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		194FF99E296C21B300FB6D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		194FF9A0296C21B500FB6D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194FF9A3296C21B500FB6D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		194FF9A5296C21B500FB6D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194FF9C7296C23A600FB6D55 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		194FF9D3296C7E8C00FB6D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/Курс MyPlaces/MyPlaces/MyPlaces/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 				194FF9C7296C23A600FB6D55 /* MainViewController.swift */,
 				194FF999296C21B300FB6D55 /* SceneDelegate.swift */,
 				194FF99D296C21B300FB6D55 /* Main.storyboard */,
-				194FF9A0296C21B500FB6D55 /* Assets.xcassets */,
 				194FF9A2296C21B500FB6D55 /* LaunchScreen.storyboard */,
 				194FF9A5296C21B500FB6D55 /* Info.plist */,
+				194FF9D3296C7E8C00FB6D55 /* Assets.xcassets */,
 			);
 			path = MyPlacesApp;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				194FF9A4296C21B500FB6D55 /* LaunchScreen.storyboard in Resources */,
-				194FF9A1296C21B500FB6D55 /* Assets.xcassets in Resources */,
+				194FF9D4296C7E8C00FB6D55 /* Assets.xcassets in Resources */,
 				194FF99F296C21B300FB6D55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
