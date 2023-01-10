@@ -14,6 +14,8 @@
 		194FF9C8296C23A600FB6D55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194FF9C7296C23A600FB6D55 /* MainViewController.swift */; };
 		194FF9D4296C7E8C00FB6D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194FF9D3296C7E8C00FB6D55 /* Assets.xcassets */; };
 		194FF9D7296D8AA300FB6D55 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194FF9D6296D8AA300FB6D55 /* CustomTableViewCell.swift */; };
+		194FF9D9296DA17900FB6D55 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194FF9D8296DA17900FB6D55 /* PlaceModel.swift */; };
+		194FF9DB296DA4AB00FB6D55 /* Assets+AccentColor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194FF9DA296DA4AB00FB6D55 /* Assets+AccentColor.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		194FF9C7296C23A600FB6D55 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		194FF9D3296C7E8C00FB6D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/Курс MyPlaces/MyPlaces/MyPlaces/Assets.xcassets"; sourceTree = "<group>"; };
 		194FF9D6296D8AA300FB6D55 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		194FF9D8296DA17900FB6D55 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		194FF9DA296DA4AB00FB6D55 /* Assets+AccentColor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets+AccentColor.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				194FF997296C21B300FB6D55 /* AppDelegate.swift */,
 				194FF9C7296C23A600FB6D55 /* MainViewController.swift */,
+				194FF9D8296DA17900FB6D55 /* PlaceModel.swift */,
 				194FF9D6296D8AA300FB6D55 /* CustomTableViewCell.swift */,
 				194FF999296C21B300FB6D55 /* SceneDelegate.swift */,
 				194FF99D296C21B300FB6D55 /* Main.storyboard */,
 				194FF9A2296C21B500FB6D55 /* LaunchScreen.storyboard */,
 				194FF9A5296C21B500FB6D55 /* Info.plist */,
 				194FF9D3296C7E8C00FB6D55 /* Assets.xcassets */,
+				194FF9DA296DA4AB00FB6D55 /* Assets+AccentColor.xcassets */,
 			);
 			path = MyPlacesApp;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				194FF9A4296C21B500FB6D55 /* LaunchScreen.storyboard in Resources */,
 				194FF9D4296C7E8C00FB6D55 /* Assets.xcassets in Resources */,
+				194FF9DB296DA4AB00FB6D55 /* Assets+AccentColor.xcassets in Resources */,
 				194FF99F296C21B300FB6D55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,7 @@
 			files = (
 				194FF9C8296C23A600FB6D55 /* MainViewController.swift in Sources */,
 				194FF998296C21B300FB6D55 /* AppDelegate.swift in Sources */,
+				194FF9D9296DA17900FB6D55 /* PlaceModel.swift in Sources */,
 				194FF9D7296D8AA300FB6D55 /* CustomTableViewCell.swift in Sources */,
 				194FF99A296C21B300FB6D55 /* SceneDelegate.swift in Sources */,
 			);
